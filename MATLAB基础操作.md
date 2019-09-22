@@ -1,9 +1,9 @@
 # MATLAB基础操作
 ## 数据类型操作函数
 
-### 数值范围强制转换
+### 数值类型强制转换
 * `init8; uint8; ...; int64; uint64`
-* `single(); double()`
+* `single(); double(); char()`
 
 ### 取整
 > MATLAB的浮点数类型只有 `single` 和 `double`
