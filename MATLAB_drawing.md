@@ -71,6 +71,9 @@ legend([h_stem ,h_plot_sin ,h_plot_cos] ,'sin(x)+cos(x)' ,'sin(x)' ,'cos(x)')
 > 横纵坐标的显示范围一般都用向量表示
 
 #### 图像填色
-* patch(x_vector ,y\_vector ,[r ,g ,b]):x\_vector and 
+* patch(x\_vector ,y\_vector ,[r ,g ,b]):x\_vector and y\_vector一一对应作为多边形的顶点 从而围成一个多边形 填充该多边形 r:red ,g:green ,b:blue
+> patch(x\_vector ,y\_vector ,'r')  
+> 顶点需要按顺序从头连接到尾  
+* 
 
 
